@@ -12,7 +12,7 @@ namespace SwagZilean
 
         public static void getSpells()
         {
-            Q = new Spell.Skillshot(SpellSlot.Q, 900, SkillShotType.Circular, (int) 280, 1850, 150);
+            Q = new Spell.Skillshot(SpellSlot.Q, 900, SkillShotType.Circular, (int) 0.70f, 2500, 140);
             Q.AllowedCollisionCount = int.MaxValue;
             W = new Spell.Active(SpellSlot.W);
             E = new Spell.Targeted(SpellSlot.E, 700);
